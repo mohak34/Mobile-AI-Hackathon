@@ -23,7 +23,8 @@ Everything happens on-device. Your files never leave your phone.
 
 | Model | Purpose | Size |
 |-------|---------|------|
-| LFM2 VL 450M | Generates captions for images | 420 MB |
+| LFM2 VL 450M | Generates captions for images (default) | 420 MB |
+| LFM2 VL 1.6B | Higher quality captions, uses more RAM | 1440 MB |
 | Nomic Embed v2 | Converts text to vectors for search | ~300 MB |
 
 Models are provided by [Cactus SDK](https://github.com/cactus-compute/cactus) and downloaded on first use.
