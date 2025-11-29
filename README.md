@@ -2,6 +2,14 @@
 
 A semantic search app for your images and PDFs that runs completely on your phone. No cloud, no internet needed.
 
+## Download
+
+[Download APK](https://github.com/mohak34/Mobile-AI-Hackathon/releases/download/v1.0.0/app-release.apk)
+
+## Demo
+
+[Watch Demo Video](https://drive.google.com/file/d/1aCEBNFkmpVaL2LTEQxYSASCtm2Y3K1Ic/view?usp=drivesdk)
+
 ## What it does
 
 1. You pick images or PDFs from your phone
