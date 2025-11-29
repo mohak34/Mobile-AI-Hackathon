@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Recall",
+    "slug": "recallapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.cooperelixer.recallapp"
+    },
+    "plugins": [
+      "./plugins/withKotlinVersion.js",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "extraMavenRepos": [],
+            "packagingOptions": {
+              "pickFirst": ["**/libc++_shared.so", "**/libfbjni.so"]
+            }
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "62ff49b4-075b-48bf-a2a7-71df5c960ef8"
+      }
+    },
+    "owner": "cooperelixer"
+  }
+}
